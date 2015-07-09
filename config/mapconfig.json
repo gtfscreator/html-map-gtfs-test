@@ -1,10 +1,10 @@
 {
-  "title" : "My map",
+  "title" : "GTFS BROWSING EXAMPLE :)",
   "map" : {
     "center" : [9.2, 45.483333],
     "centerProjection" : "EPSG:4326",
-    "zoom" : 11,
-    "minZoom" : 10,
+    "zoom" : 13,
+    "minZoom" : 12,
     "maxZoom" : 14,
     "extent" : [9.0, 45.2, 10, 45.6 ],
     "extentProjection" : "EPSG:4326"
@@ -25,11 +25,12 @@
       "templatePopup" : "templates/example.html"
     },
     {
-      "name" : "ztlbg",
-      "layerType" : "geojson",
-      "layerOptions" : { "url" : "data/ztlbg.geojson" },
+      "name" : "test",
+      "layerType" : "bbox-geojson",
+      "layerOptions" : { "url" : "http://gtfs.inmagik.com/api/feeds/1/routes.geojson/"},
       "templatePopup" : "templates/table.html"
-    }
+    },
+    
 
 
   ]
