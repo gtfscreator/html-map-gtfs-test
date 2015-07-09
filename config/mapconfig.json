@@ -29,9 +29,7 @@
       "layerType" : "bbox-geojson",
       "layerOptions" : { "url" : "http://gtfs.inmagik.com/api/feeds/1/routes.geojson/"},
       "templatePopup" : "templates/table.html"
-    },
-    
-
+    }
 
   ]
 
