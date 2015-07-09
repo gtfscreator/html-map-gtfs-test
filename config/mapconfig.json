@@ -15,14 +15,7 @@
     {
       "name" : "darkmatter",
       "layerType" : "cartodb",
-      "layerOptions" : { "layer" : "dark-matter" },
-      "templatePopup" : "templates/example.html"
-    },
-    {
-      "name" : "fermate_metro",
-      "layerType" : "geojson",
-      "layerOptions" : { "url" : "data/fermate-metro.geojson" },
-      "templatePopup" : "templates/example.html"
+      "layerOptions" : { "layer" : "dark-matter" }
     },
     {
       "name" : "test",
