@@ -1,3 +1,40 @@
+#routes{
+  [rtype=1]{
+    line-color:crimson;
+    line-width:10;
+  }
+
+  [route_id='M2']{
+    line-color:green;
+  }
+  [route_id='M1']{
+    line-color:red;
+  }
+  [route_id='M3']{
+    line-color:yellow;
+  }
+  [route_id='M5']{
+    line-color:hotpink;
+  }
+
+  [rtype=3]{
+    line-color:orange;
+  }
+}
+
+#stops{
+  marker-width:2;
+  [zoom > 16]{
+    text-name:[name];
+    text-dy: -10;
+    text-face-name: 'Arial';
+    text-stroke: black;
+    text-fill:white;
+    marker-width:5;
+  }
+}
+
+
 #fermate_metro {
   marker-width: 5;
   marker-fill: hotpink;
