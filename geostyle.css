@@ -17,13 +17,18 @@
     line-color:hotpink;
   }
 
+  [rtype=2]{
+    line-color:blue;
+  }
+
   [rtype=3]{
     line-color:orange;
   }
 }
 
 #stops{
-  marker-width:2;
+  marker-width:4;
+  marker-fill:black;
   [zoom > 16]{
     text-name:[name];
     text-dy: -10;

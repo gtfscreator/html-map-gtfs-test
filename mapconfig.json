@@ -27,7 +27,8 @@
       "name" : "stops",
       "layerType" : "geojson",
       "layerOptions" : { "url" : "http://gtfs.inmagik.com/api/feeds/1/stops.geojson/"},
-      "templatePopup" : "templates/table.html"
+      "templatePopup" : "templates/table.html",
+      "minZoom" : 14
     }
 
   ]
