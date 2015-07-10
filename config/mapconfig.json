@@ -19,13 +19,13 @@
     },
     {
       "name" : "test",
-      "layerType" : "bbox-geojson",
+      "layerType" : "geojson",
       "layerOptions" : { "url" : "http://gtfs.inmagik.com/api/feeds/1/routes.geojson/"},
       "templatePopup" : "templates/table.html"
     },
     {
       "name" : "test",
-      "layerType" : "bbox-geojson",
+      "layerType" : "geojson",
       "layerOptions" : { "url" : "http://gtfs.inmagik.com/api/feeds/1/stops.geojson/"},
       "templatePopup" : "templates/table.html"
     }
